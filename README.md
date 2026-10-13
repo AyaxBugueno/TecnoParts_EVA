@@ -1,1 +1,0 @@
-# TecnoParts_EVA
