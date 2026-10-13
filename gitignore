@@ -1,0 +1,20 @@
+# --- Secretos: NUNCA al repositorio ---
+*.pem
+*.key
+id_*
+.env
+*.env
+spark-ha.env
+credentials
+.aws/
+
+# --- Datos generados (se reproducen con la semilla; no se versionan) ---
+dataset/
+*.csv
+*.parquet
+
+# --- Varios ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
