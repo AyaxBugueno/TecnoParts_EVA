@@ -1,0 +1,9 @@
+*.pem
+*.key
+.env
+credentials*
+dataset/
+dataset_dev/
+*.csv
+__pycache__/
+*.ipynb_checkpoints

@@ -1,0 +1,63 @@
+{
+  "generador_version": "2.0",
+  "seed": 8940,
+  "gb_solicitado": 2.5,
+  "n_clientes": 112750,
+  "periodo": [
+    "2023-01-01",
+    "2025-12-31"
+  ],
+  "anomalias_inyectadas": true,
+  "modo": "completo",
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "python": "3.10.12",
+  "fecha_generacion": "2026-10-19",
+  "segundos": 213.9,
+  "bytes_total": 2471593362,
+  "tablas": {
+    "clientes": {
+      "filas": 112971,
+      "bytes": 14434457,
+      "md5": "45e698a36f8a8ba87192f1bed32cd127"
+    },
+    "productos": {
+      "filas": 2001,
+      "bytes": 261608,
+      "md5": "3af49cf15d84acf055de10c948921d55"
+    },
+    "ventas": {
+      "filas": 444585,
+      "bytes": 54148419,
+      "md5": "10efe6ad5abffca9513cda08d7032fa7"
+    },
+    "detalle_ventas": {
+      "filas": 780737,
+      "bytes": 34389519,
+      "md5": "5fbec1fef4352eb6a7616ab41389d437"
+    },
+    "navegacion_web": {
+      "filas": 26906052,
+      "bytes": 2368359359,
+      "md5": "9a65b60b2b409b1fd1e799dddd88c5e1"
+    }
+  },
+  "conteo_anomalias": {
+    "clientes.duplicado_exacto": 221,
+    "clientes.edad_fuera_de_rango": 102,
+    "clientes.email_nulo": 53,
+    "clientes.region_formato_inconsistente": 99,
+    "detalle_ventas.cantidad_no_positiva": 766,
+    "detalle_ventas.duplicado_exacto": 1522,
+    "detalle_ventas.precio_unitario_nulo": 368,
+    "navegacion_web.duplicado_exacto": 53728,
+    "navegacion_web.duracion_negativa": 26905,
+    "navegacion_web.fecha_hora_nula": 13388,
+    "navegacion_web.tipo_evento_formato_inconsistente": 27035,
+    "productos.duplicado_exacto": 1,
+    "ventas.duplicado_exacto": 917,
+    "ventas.fecha_fuera_de_rango": 461,
+    "ventas.fecha_nula": 239,
+    "ventas.id_cliente_huerfano": 243
+  }
+}
